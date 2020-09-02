@@ -1,0 +1,77 @@
+.user {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.user img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.userinfo .name {
+  font-size: 32px;
+  margin: 0;
+  padding-bottom: 10px;
+} 
+.userinfo .access {
+  color: #999999;
+  margin: 0;
+}
+.login-info p{
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+  padding: 0;
+}
+.login-info span{
+  color: #666666;
+  margin-left: 70px;
+}
+.home .num{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home .num .el-card{
+  width: 32%;
+  margin-bottom: 20px;
+}
+.icon{
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+}
+.detail{
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.detail p{
+  margin: 0;
+}
+.detail .num{
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+.detail .txt{
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+}
+
+.graph{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.graph .el-card{
+  width: 48%;
+}
